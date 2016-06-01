@@ -1,0 +1,28 @@
+node_types:
+
+  picard-MarkDuplicates:
+    derived_from: workflow_service
+    properties:
+      Validation-Stringency:
+        type: string
+        default: LENIENT
+      Comments:
+        type: string
+      Assume-Sorted:
+        type: string
+        default: 'true'
+      Remove-Duplicates:
+        type: string
+        default: 'true'
+      #input
+      input-SAM_BAM-files:
+        type: string
+        default: file-wrapper
+      #output
+      marked-SAM_BAM-file:
+        type: string
+        default: file-wrapper
+      metrics-file:
+        type: string
+        default: file-wrapper
+

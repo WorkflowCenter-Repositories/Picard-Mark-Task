@@ -1,0 +1,6 @@
+input-dir: 'input' #input directory
+input-file:                          #input file name
+docker-image: 'dtdwd/picardclean1'   #Docker image
+
+
+
